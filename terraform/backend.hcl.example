@@ -1,0 +1,2 @@
+bucket = "replace-with-your-globally-unique-state-bucket"
+region = "us-east-1"

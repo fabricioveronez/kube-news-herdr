@@ -104,3 +104,12 @@ node_modules/
 # .tern-port
 
 *.Identifier
+
+# Terraform local data and state
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+terraform/terraform.tfvars
+terraform/backend.hcl

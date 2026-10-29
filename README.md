@@ -2,6 +2,10 @@
 
 Uma aplicação de notícias desenvolvida em NodeJS para demonstrar o uso de containers e Kubernetes.
 
+## Infraestrutura AWS
+
+O projeto Terraform para VPC, EKS e RDS PostgreSQL está em [terraform/README.md](terraform/README.md), com arquitetura, pré-requisitos, custos e instruções de uso.
+
 ## 📋 Sobre o Projeto
 
 O projeto Kube-News é uma aplicação web simples desenvolvida em Node.js, projetada como exemplo para demonstrar o uso de contêineres. É um portal de notícias que permite criar, visualizar e gerenciar artigos através de uma interface web.

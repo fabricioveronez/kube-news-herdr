@@ -1,0 +1,22 @@
+# Copy to terraform.tfvars and adjust for your environment. Never commit the real file.
+# region                       = "us-east-1"
+# project_name                 = "kube-news"
+# vpc_cidr                     = "10.0.0.0/16"
+# single_nat_gateway           = false
+# kubernetes_version           = null
+# cluster_public_access_cidrs  = ["0.0.0.0/0"]
+# cluster_admin_principal_arns = []
+# node_instance_types          = ["t3.medium"]
+# node_desired_size            = 2
+# node_min_size                = 2
+# node_max_size                = 4
+# db_engine_version            = "18"
+# db_instance_class            = "db.t4g.micro"
+# db_allocated_storage         = 20
+# db_multi_az                  = true
+# db_name                      = "kubedevnews"
+# db_username                  = "kubedevnews"
+# db_skip_final_snapshot       = true
+# db_deletion_protection       = false
+
+# Supply db_password through TF_VAR_db_password or an ignored terraform.tfvars.
